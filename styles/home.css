@@ -1,0 +1,170 @@
+.container-navbar{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.fa-bars{
+    padding: 10px 12px;
+    font-size: 20px;
+    border: 1px solid #063b8b;
+    border-radius: 5px;
+    background: none;
+    color: #063b8b;
+}
+
+.fa-bars:hover{
+    color: #042049;
+    border: 1px solid #042049;
+}
+
+.enlace{
+    border: none;
+    padding: 12px;
+    background: none;
+    color: #063b8b;
+    font-size: 18px;
+}
+
+.enlace:hover{
+    color: #042049;
+    text-decoration: none;
+}
+
+.dropdown-menu a{
+    color: #063b8b;
+}
+
+.dropdown-menu a:focus{
+    color: #042049;
+}
+
+.dropdown-menu a:hover{
+    color: #042049;
+}
+
+
+/*SLIDER*/
+
+/*.container-home{
+    padding-top: 144px;
+  }
+  
+  @media(max-width: 388px){
+    .container-home{
+      padding-top: 144px;
+    }
+  }
+
+  @media(max-width: 343px){
+    .container-home{
+      padding-top: 168px;
+    }
+  }*/
+  
+  /*CAROUSEL*/
+  
+  .carousel{
+      height: 550px;
+    }
+    
+  .carousel-inner{
+      height: 100%;
+  }
+    
+  .carousel-item{
+      height: 100%;
+  }
+  
+  .carousel-item img{
+      height: 100%;
+      object-fit: cover;
+      display: flex;
+      align-items: center;
+  }
+  
+  .carousel-control{
+      border: none;
+      background: none;
+  }
+  
+  /*SECTIONS*/
+  
+  .box-img-section{
+    width: 90%;
+  }
+  
+  h1{
+    color: #04A922;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .box-img-section img{
+    width: 100%;
+  }
+  
+  /*RESPONSIVE*/
+  
+  @media(max-width: 991px){
+      .carousel{
+        height: 400px;
+      }
+  }
+    
+  @media(max-width: 767px){
+      .carousel{
+        height: 300px;
+      }
+  }
+    
+  @media(max-width: 575px){
+      .carousel{
+        height: 200px;
+      }
+  }
+  
+  .box-img-card{
+    height: 180px;
+  }
+  
+  .box-img-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+/*FOOTER*/
+
+.container-footer{
+  background: #042049;
+}
+
+.brand-footer{
+  width: 200px;
+}
+
+.facebook{
+  color: #FFF;
+}
+
+.facebook:hover{
+  color: #04A922;
+  text-decoration: none;
+}
+
+p{
+  color: #FFF;
+}
+
+h5{
+  color: #FFF;
+}
+
+.img-footer{
+  width: 200px;
+}
+
+@media(max-width: 767px){
+  .img-footer{
+    width: 150px;
+  }
+}
